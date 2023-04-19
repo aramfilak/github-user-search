@@ -23,11 +23,11 @@ interface Props {
   };
 }
 
-const Result: React.FC<Props> = ({ user }) => {
+const Result: React.FC<Props> = ({user}) => {
   return (
     <article className="profile">
       <header>
-        <img className="user-avatar" src={user.avatar_url} alt="User Avatar" />
+        <img className="user-avatar" src={user.avatar_url} alt="User Avatar"/>
         <div className="user-info">
           <div className="user-name">
             <h1>{user.name}</h1>
@@ -69,7 +69,7 @@ const Result: React.FC<Props> = ({ user }) => {
             target="_blank"
             className={user.location ? "available" : "not-available"}
           >
-            <img src={LocationIcon} alt="Location Icon" />
+            <img src={LocationIcon} alt="Location Icon"/>
             {user.location || "Not Available"}
           </a>
         </div>
@@ -79,7 +79,7 @@ const Result: React.FC<Props> = ({ user }) => {
             target="_blank"
             className={user.twitter_username ? "available" : "not-available"}
           >
-            <img src={TwitterIcon} alt="Twitter Icon" />
+            <img src={TwitterIcon} alt="Twitter Icon"/>
             {user.twitter_username || "Not Available"}
           </a>
         </div>
@@ -89,7 +89,7 @@ const Result: React.FC<Props> = ({ user }) => {
             target="_blank"
             className={user.blog ? "available" : "not-available"}
           >
-            <img src={WebsiteIcon} alt="Blog Icon" />
+            <img src={WebsiteIcon} alt="Blog Icon"/>
             {user.blog || "Not Available"}
           </a>
         </div>
@@ -99,7 +99,7 @@ const Result: React.FC<Props> = ({ user }) => {
             target="_blank"
             className={user.company ? "available" : "not-available"}
           >
-            <img src={CompanyIcon} alt="Company Icon" />
+            <img src={CompanyIcon} alt="Company Icon"/>
             {user.company || "Not Available"}
           </a>
         </div>

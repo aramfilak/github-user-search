@@ -1,5 +1,5 @@
 import "./SearchBox.sass";
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Result from "./Result";
 import axios from "axios";
 
