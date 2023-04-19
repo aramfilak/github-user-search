@@ -6,7 +6,7 @@
 
 ## The challenge
 
-## [Live Preview 🎆](github-user-search-app-aramfilak.vercel.app)
+## [Live Preview 🎆](https://vercel.com/aramfilak/aram-filak/Ehho2bHqPCZbBanPSgdBBGk3PmZ6)
 
 ## The challenge
 
